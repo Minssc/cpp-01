@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 11:45:12 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/14 12:21:31 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/14 13:55:10 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include <string>
 #include <iostream>
+#include <sstream>
 
 class Zombie
 {

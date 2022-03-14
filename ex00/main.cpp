@@ -6,7 +6,7 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 11:44:39 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/14 12:33:03 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/14 13:57:03 by minsunki         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,9 @@ int	main(void)
 
 	for (int i = 0; i < 10; ++i)
 	{
-		Z[i] = Zombie::newZombie("minsunki's slave#" + std::to_string(i));
+		std::string	nstr = 
+		static_cast<std::ostringstream*>( &(std::ostringstream() << i) )->str();
+		Z[i] = Zombie::newZombie("minsunki's slave #" + nstr);
 		Z[i]->announce();
 	}
 
