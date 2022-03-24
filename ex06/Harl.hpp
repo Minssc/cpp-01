@@ -1,22 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Karen.hpp                                          :+:      :+:    :+:   */
+/*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 16:11:58 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/14 17:57:15 by minsunki         ###   ########seoul.kr  */
+/*   Updated: 2022/03/24 14:25:13 by minsunki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __KAREN_HPP__
-# define __KAREN_HPP__
+#ifndef __HARL_HPP__
+# define __HARL_HPP__
 
 # include <string>
 # include <iostream>
 
-class Karen
+class Harl
 {
 	private:
 		void	nothin(void);
@@ -26,8 +26,8 @@ class Karen
 		void	error(void);
 
 	public:
-		Karen(void);
-		~Karen(void);
+		Harl(void);
+		~Harl(void);
 		void	complain(std::string level);
 };
 

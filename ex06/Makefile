@@ -6,15 +6,15 @@
 #    By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/14 16:59:40 by minsunki          #+#    #+#              #
-#    Updated: 2022/03/15 23:08:46 by minsunki         ###   ########seoul.kr   #
+#    Updated: 2022/03/24 14:24:26 by minsunki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME			=		karenFilter
+NAME			=		harlFilter
 
 SRCF			=		.	
 
-FIL_M			=		main Karen
+FIL_M			=		main Harl
 
 SRCS_M			=		$(addsuffix .cpp, $(FIL_M))
 

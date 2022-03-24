@@ -6,12 +6,12 @@
 /*   By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/14 16:11:58 by minsunki          #+#    #+#             */
-/*   Updated: 2022/03/24 14:19:05 by minsunki         ###   ########.fr       */
+/*   Updated: 2022/03/24 14:27:23 by minsunki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __KAREN_HPP__
-# define __KAREN_HPP__
+#ifndef __HARL_HPP__
+# define __HARL_HPP__
 
 # include <string>
 # include <iostream>
