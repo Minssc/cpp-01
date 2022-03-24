@@ -6,7 +6,7 @@
 #    By: minsunki <minsunki@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/14 16:11:10 by minsunki          #+#    #+#              #
-#    Updated: 2022/03/15 23:08:42 by minsunki         ###   ########seoul.kr   #
+#    Updated: 2022/03/24 14:18:47 by minsunki         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME			=		ex05
 
 SRCF			=		.	
 
-FIL_M			=		main Karen
+FIL_M			=		main Harl
 
 SRCS_M			=		$(addsuffix .cpp, $(FIL_M))
 
